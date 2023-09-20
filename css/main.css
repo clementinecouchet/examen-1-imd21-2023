@@ -50,7 +50,6 @@ video {
 
 h1,
 .artist,
-.see-programme {
 .see-programme,
 .citation,
 .title-new,
@@ -79,22 +78,93 @@ h4 {
 .programme {
   display: flex;
   flex-direction: column;
-  padding: 10px;
+}
+
+.programme-desire {
+  padding-right: 5px;
+}
+
+.programme-pumpitopera {
+  padding-left: 5px;
+}
+
+.new-month {
+  margin-right: 5px;
+}
+
+.new-walls {
+  margin-left: 5px;
 }
 
 .programme img {
   border-bottom: 7px solid rgba(215, 161, 253, 1);
 }
 
+.new {
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.bg-partie3 {
+  background-color: rgba(244, 237, 232, 1);
+  padding: 0 20px 20px 20px;
+}
+
+.text-new {
+  padding: 20px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+.text-walls {
+}
+
+.title-new {
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 22px;
+}
+
 .whats-on {
   display: flex;
   flex-direction: row;
+  padding: 0 20px 30px 20px;
+}
+
+.whats-new {
+  display: flex;
+  flex-direction: row;
+  padding: 0 20px 0 20px;
 }
 
 .text-programme {
   border-bottom: 1px solid rgba(0, 0, 0, 1);
   border-left: 1px solid rgba(0, 0, 0, 1);
   border-right: 1px solid rgba(0, 0, 0, 1);
+  font-size: 15px;
+  line-height: 15px;
+  text-align: center;
+  font-weight: 300;
+  padding: 20px 0 0 0;
+}
+
+.artist {
+  padding: 20px 0 20px 0;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 24px;
+}
+
+.land-africa {
+  padding: 0 0 54px 0;
+}
+
+.land-brazil {
+  padding: 0 0 30px 0;
+}
+
 header {
   background-color: rgba(215, 161, 253, 1);
   color: rgba(255, 255, 255, 1);
@@ -124,6 +194,89 @@ nav {
   justify-content: space-between;
 }
 
-.titlle-new {
-  color: red;
+h2 {
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 50px;
+  text-align: center;
+  padding: 60px 20px 30px 20px;
+}
+
+.see-programme {
+  background-color: rgba(0, 0, 0, 1);
+  margin: 0 97px 60px 97px;
+  padding: 20px 30px 20px 30px;
+  color: rgba(215, 161, 253, 1);
+  font-size: 15px;
+  line-height: 15px;
+  font-weight: 800;
+  text-align: center;
+  font-style: italic;
+}
+
+.citation {
+  background-color: rgba(152, 251, 0, 1);
+}
+
+.text-citation {
+  font-size: 30px;
+  line-height: 28px;
+  font-style: italic;
+  font-weight: 800;
+  text-align: center;
+  padding: 20px;
+  letter-spacing: -1.5px;
+}
+
+.text-author {
+  font-size: 15px;
+  font-family: "Noto Serif", serif;
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 20px;
+  line-height: 15px;
+}
+
+.opportunities {
+  background-color: rgba(215, 161, 253, 1);
+}
+
+.title-opportunities {
+  text-align: center;
+  padding: 20px;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 50px;
+  letter-spacing: -2.5px;
+}
+
+.box-opportunities {
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+  background: #98fb00;
+  width: 214px;
+  height: 112px;
+  flex-shrink: 0;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: -1px;
+  padding: 20px 10px 20px 10px;
+}
+
+.volunteer-box {
+  border-left: none;
+}
+
+.option-opportunities {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 60px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 1);
+  color: rgba(49, 49, 49, 1);
 }
