@@ -100,12 +100,12 @@ h4 {
 }
 
 .img-walls {
-  background-image: url(../img/if_walls_could_talk.jpeg);
+  background-image: url(../img/if_walls_could_talk.png);
   background-position: center;
 }
 
 .img-month {
-  background-image: url(../img/one_month_to_go_red.jpeg);
+  background-image: url(../img/one_month_to_go.png);
   background-position: center;
 }
 
@@ -156,6 +156,8 @@ h4 {
   text-align: center;
   font-weight: 300;
   padding: 20px 0 0 0;
+  width: 189px;
+  height: 168px;
 }
 
 .artist {
@@ -302,6 +304,7 @@ footer {
   font-size: 13px;
   font-weight: 300;
   line-height: 18px;
+  width: 184px;
 }
 
 .infos {
@@ -309,6 +312,7 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   padding: 20px 20px 0 20px;
+  gap: 10px;
 }
 
 footer h2 {
