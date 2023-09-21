@@ -88,16 +88,25 @@ h4 {
   padding-left: 5px;
 }
 
-.new-month {
-  margin-right: 5px;
-}
-
-.new-walls {
-  margin-left: 5px;
-}
-
 .programme img {
   border-bottom: 7px solid rgba(215, 161, 253, 1);
+}
+
+.img-new {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  height: 258.997px;
+  overflow: hidden;
+}
+
+.img-walls {
+  background-image: url(../img/if_walls_could_talk.jpeg);
+  background-position: center;
+}
+
+.img-month {
+  background-image: url(../img/one_month_to_go_red.jpeg);
+  background-position: center;
 }
 
 .new {
@@ -107,7 +116,7 @@ h4 {
 
 .bg-partie3 {
   background-color: rgba(244, 237, 232, 1);
-  padding: 0 20px 20px 20px;
+  padding: 0 20px 60px 20px;
 }
 
 .text-new {
@@ -115,9 +124,7 @@ h4 {
   font-size: 15px;
   font-weight: 300;
   line-height: 22px;
-}
-
-.text-walls {
+  width: 189px;
 }
 
 .title-new {
@@ -136,7 +143,8 @@ h4 {
 .whats-new {
   display: flex;
   flex-direction: row;
-  padding: 0 20px 0 20px;
+  align-items: flex-start;
+  gap: 10px;
 }
 
 .text-programme {
@@ -308,6 +316,6 @@ footer h2 {
 }
 
 .contact-comm {
-  padding-left: 23px;
+  padding-left: 20px;
   padding-right: 20px;
 }
