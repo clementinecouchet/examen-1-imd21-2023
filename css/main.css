@@ -279,4 +279,35 @@ h2 {
 footer {
   background-color: rgba(0, 0, 0, 1);
   color: rgba(49, 49, 49, 1);
+  padding: 20px 20px 112px;
+}
+
+.contact {
+  color: #fff;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 18px;
+}
+
+.contact a {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 18px;
+}
+
+.infos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 20px 0 20px;
+}
+
+footer h2 {
+  padding: 0;
+}
+
+.contact-comm {
+  padding-left: 23px;
+  padding-right: 20px;
 }
